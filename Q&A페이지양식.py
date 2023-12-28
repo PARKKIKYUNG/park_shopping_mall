@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import os
 
-os.chdir(r'C:\Users\pkk92\Desktop\박준형_쇼핑몰')
 
 
 
