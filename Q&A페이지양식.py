@@ -50,7 +50,7 @@ if selected_value != '' and selected_qa_keyword !='':
 
 
 # Display the entire data table
-st.subheader("전체 데이터")
+st.subheader("전체 데이터ㅇㅇ")
 st.dataframe(df)
 
 
