@@ -12,7 +12,7 @@ st.image(image_path, use_column_width=True, width=200)
 
 
 
-df = pd.read_csv("브랜드_종합.csv")
+df = pd.read_csv("종합1차.csv")
 print(df)
 # Display the entire data table
 st.subheader("전체 데이터")
