@@ -13,10 +13,8 @@ st.image(image_path, use_column_width=True, width=200)
 
 
 df = pd.read_csv("통합1차.csv")
-print(df)
-# Display the entire data table
-st.subheader("전체 데이터")
-st.dataframe(df)
+
+
 
 
 
@@ -48,6 +46,12 @@ if selected_value != '' and selected_qa_keyword !='':
     keywords = [keyword.strip() for keyword in selected_qa_keyword.split(',')]
     filtered_df = filtered_df[filtered_df[selected_qa].apply(lambda x: all(keyword in x for keyword in keywords))]
     st.dataframe(filtered_df)
+
+
+
+# Display the entire data table
+st.subheader("전체 데이터")
+st.dataframe(df)
 
 
 
