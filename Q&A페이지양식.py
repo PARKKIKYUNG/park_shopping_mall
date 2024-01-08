@@ -12,7 +12,7 @@ st.image(image_path, use_column_width=True, width=200)
 
 
 
-df = pd.read_csv("통합1차.csv")
+df = pd.read_csv("통합1차_.csv")
 
 
 
